@@ -1,0 +1,17 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[user]
+	name = Tareq Fadel
+	email = itrainit@gmail.com
+[color]
+	ui = auto
+[core]
+	editor = subl -n -w
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[credential]
+	helper = osxkeychain
